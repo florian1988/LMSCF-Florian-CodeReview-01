@@ -1,0 +1,145 @@
+body{
+	font-family: arial;
+}
+
+.header {
+	position: relative
+	width: 100%;
+	height: 150px;
+	background-color: #CABBB7;
+}
+
+#logo {
+
+	height: 100px;
+	width: 300px;
+	text-align: right;
+	float: right;
+	margin-top: -80px;
+	margin-right: 50px;
+}
+
+h2{
+	margin-left: 150px;
+	padding-top: 60px;
+}
+
+.navigation{
+	width: 100%;
+	height: 50px;
+	background-color: #c65252;
+	margin-top: -20px;
+	
+}
+
+ul{
+	list-style: none;
+	text-align: right;
+	margin: 10px;
+	margin-right: 80px;
+
+	}
+
+li{
+	float: right;
+	margin-top: 5px;
+	padding: 5px;
+	padding-right: 15px;
+}	
+
+li a {
+	font-size: 25px;
+	font-family:arial;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	color: black;
+}
+
+h1{
+	text-align: center;
+	font-size: 100px;
+}
+
+
+#img1{
+	display:block;
+	margin: 0 auto;
+	width: 90%;
+	
+}
+
+
+.Box {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+
+	
+}
+
+.Boxes img{
+	height:300px;
+	text-align: center;
+
+}
+
+
+
+figcaption{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.footer{
+	position: relative
+	width: 100%;
+	height: 150px;
+	background-color: #CABBB7;
+	text-align: center;
+}
+.footer img{
+	height: 40%;
+	margin-top: 10px;
+
+}
+
+p{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ab hier wird für den blog geschreiben */
+.mainblog{
+	display: block;
+	margin: 20px auto;
+	height: 800px;
+	width: 70%;
+	
+	text-align: center;
+	box-shadow: 0px 10px 30px 2px;
+}
+
+iframe{ 
+	margin-top: 50px;
+}
+
+#article {
+	text-align: center;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
